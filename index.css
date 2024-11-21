@@ -1,0 +1,66 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*MuscleZone logo*/
+#musclezone-logo {
+	font-family: "Uncial Antiqua", sans-serif;
+	font-size: 40px;
+	color: #B87333;
+}
+
+/*Navbar*/
+.navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+	letter-spacing: 1px;
+}
+
+
+/*Line*/
+.custom-line {
+    height: 5px;
+    background-color: #003366;
+}
+
+
+/*Carousel*/
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel-border {
+  border: 2px solid #000;
+  overflow: hidden; 
+  margin: 0;
+  padding: 0;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 300px; 
+  width: 100%; 
+}
+
+.card-img-top:hover {
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+/* Card shadow effect */
+.card {
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
